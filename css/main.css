@@ -16,6 +16,10 @@ img {
   max-height: 250px;
 }
 
+.fa{
+  color: #BDB35C;
+}
+
 .center {
   text-align: center;
 }
@@ -31,7 +35,7 @@ img {
 }
 
 #contact {
-  background-color: #D9EDF7;
+  background-color: #FCF8E3;
 }
 
 .skill {
