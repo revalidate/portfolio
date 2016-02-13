@@ -1,13 +1,13 @@
 .jumbotron {
-  background-color: #DFF0D8;
+  background-color: #D00E4D;
   text-align: center;
   font-family: Courier;
-  color: rgba(255, 255, 255, 255);
+  color: white;
   height: 250px;
 }
 
 .nav {
-transition-duration: 1s;
+  transition-duration: 1s;
 }
 
 img {
@@ -17,7 +17,7 @@ img {
 }
 
 .fa{
-  color: #BDB35C;
+  color: white;
 }
 
 .center {
@@ -26,25 +26,29 @@ img {
 
 #skills {
   margin-top: 50px;
-  background-color: #f2dede;
+  background-color: #EA8623;
+  color: white;
 }
 
 #projects {
-  background-color: rgba(255, 255, 255, 255);
+  background-color: white;
   padding-bottom: 50px;
+  color: black;
 }
 
 #contact {
-  background-color: #FCF8E3;
+  background-color: #24909A;
+  color: white;
 }
 
 .skill {
     display: inline-block;
-    background-color: #9FDACB;
+    background-color: rgba(255, 255, 255, 200);
     padding: 4px 8px;
-    color: rgba(255, 255, 255, 255);
+    color: #DB7715;
     border-radius: 3px;
     margin-bottom: 5px;
+    font-weight: 500;
 }
 
 .navbar-default {
@@ -56,9 +60,9 @@ img {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #f05f40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
+  font-size: 25px;
   text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,

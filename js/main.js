@@ -5,10 +5,11 @@ $(document).ready(function(){
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          $('.nav').css('background-color', '#f2dede');
+          $('.nav').css('background-color', '#EDCAC6');
        } else {
           $('.nav').css('background-color', 'transparent');
        }
    });
 
 });
+
