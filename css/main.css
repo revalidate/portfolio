@@ -10,10 +10,15 @@
   transition-duration: 1s;
 }
 
-img {
+.round-img {
   border-radius: 50%;
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 260px;
+  max-height: 260px;
+}
+
+.projects-img {
+  max-width: 800px;
+  max-height: 800px;
 }
 
 .fa{
@@ -24,21 +29,83 @@ img {
   text-align: center;
 }
 
-#skills {
-  margin-top: 50px;
-  background-color: #EA8623;
-  color: white;
+.projects-div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  max-width: 800px;
+  max-height: 800px;
 }
 
-#projects {
-  background-color: white;
+.projects {
+  height: 1000px;
+}
+
+#project-1 {
+  background-color: #24909A;
+  color: white;
+  font-size: 18px;
+}
+
+.project-1-skill {
+  background-color: rgba(255, 255, 255, 200);
+  color: #24909A;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 4px 8px;
+}
+
+#project-2 {
+  background-color: #7DCC93;
+  color: white;
+  font-size: 18px;
+}
+
+.project-2-skill {
+  background-color: rgba(255, 255, 255, 200);
+  color: #7DCC93;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 4px 8px;
+}
+
+#project-3 {
+  background-color: #F8C687;
+  color: white;
+  font-size: 18px;
+}
+
+.project-3-skill {
+  background-color: rgba(255, 255, 255, 200);
+  color: #F8C687;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 4px 8px;
+}
+
+#skills {
+  background-color: #EA8623;
+  color: white;
+  padding-top: 35px;
   padding-bottom: 50px;
-  color: black;
+  font-size: 18px;
 }
 
 #contact {
-  background-color: #24909A;
+  background-color: #F7484E;
   color: white;
+}
+
+#about{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 18px;
 }
 
 .skill {
@@ -52,8 +119,6 @@ img {
 }
 
 .navbar-default {
-  background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -65,30 +130,7 @@ img {
   font-size: 25px;
   text-transform: uppercase;
 }
-.navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
-}
-.navbar-default .nav > li > a,
-.navbar-default .nav > li > a:focus {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 13px;
-  color: #222222;
-}
-.navbar-default .nav > li > a:hover,
-.navbar-default .nav > li > a:focus:hover {
-  color: #f05f40;
-}
-.navbar-default .nav > li.active > a,
-.navbar-default .nav > li.active > a:focus {
-  color: #f05f40 !important;
-  background-color: transparent;
-}
-.navbar-default .nav > li.active > a:hover,
-.navbar-default .nav > li.active > a:focus:hover {
-  background-color: transparent;
-}
+
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
