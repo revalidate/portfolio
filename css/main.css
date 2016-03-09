@@ -17,9 +17,12 @@
   max-height: 260px;
 }
 
-
 .fa{
   color: white;
+}
+
+.fa.sriguana {
+  color:#87C73C;
 }
 
 .center {
@@ -77,14 +80,14 @@ a.project-link {
 }
 
 #project-2 {
-  background-color: #7DCC93;
-  color: white;
+  /*background-color: #7DCC93;*/
+  color: #87C73C;
   font-size: 18px;
 }
 
 .project-2-skill {
-  background-color: rgba(255, 255, 255, 200);
-  color: #7DCC93;
+  background-color: #87C73C;
+  color: white;
   border-radius: 3px;
   margin-bottom: 5px;
   font-weight: 500;
