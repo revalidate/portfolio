@@ -85,6 +85,10 @@ a.project-link {
   font-size: 18px;
 }
 
+a.sriguana {
+  color: #87C73C
+}
+
 .project-2-skill {
   background-color: #87C73C;
   color: white;
@@ -96,14 +100,15 @@ a.project-link {
 }
 
 #project-3 {
-  background-color: #F8C687;
+  /*background-color: #F8C687;*/
+  background-color: #F7484E;
   color: white;
   font-size: 18px;
 }
 
 .project-3-skill {
   background-color: rgba(255, 255, 255, 200);
-  color: #F8C687;
+  color: #F7484E;
   border-radius: 3px;
   margin-bottom: 5px;
   font-weight: 500;
@@ -120,7 +125,7 @@ a.project-link {
 }
 
 #contact {
-  background-color: #F7484E;
+  background-color: #F8C687;
   color: white;
 }
 
