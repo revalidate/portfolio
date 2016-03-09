@@ -1,9 +1,22 @@
 .jumbotron {
   background-color: #D00E4D;
   text-align: center;
-  font-family: Courier;
+  font-family: 'Gidugu', sans-serif;
+  font-weight: 700;
   color: white;
   height: 250px;
+  letter-spacing: 20px;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 5px;
 }
 
 .nav {
@@ -64,14 +77,14 @@ a.project-link {
 }
 
 #project-1 {
-  background-color: #24909A;
+  background-color: #17AFA6;
   color: white;
   font-size: 18px;
 }
 
 .project-1-skill {
   background-color: rgba(255, 255, 255, 200);
-  color: #24909A;
+  color: #17AFA6;
   border-radius: 3px;
   margin-bottom: 5px;
   font-weight: 500;
@@ -125,7 +138,7 @@ a.sriguana {
 }
 
 #contact {
-  background-color: #F8C687;
+  background-color: #F58E4C;
   color: white;
 }
 
